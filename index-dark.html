@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en" class="dark scroll-smooth" dir="ltr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chef Ready-Ready To Eat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta content="Food & Restaurant Template" name="description">
+    <meta content="" name="keywords">
+    <meta name="author" content="Shreethemes">
+    <meta name="website" content="">
+    <meta name="email" content="">
+    <meta name="version" content="1.0.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css" rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/images/logochef.png">
+
+    <!-- Css -->
+    <link href="assets/libs/tiny-slider/tiny-slider.css" rel="stylesheet">
+    <link href="assets/libs/tobii/css/tobii.min.css" rel="stylesheet">
+    <link href="assets/libs/swiper/css/swiper.min.css" rel="stylesheet">
+    <!-- Main Css -->
+    <link href="assets/css/tailwind.min.css" rel="stylesheet" type="text/css">
+    
+</head>
+
+<body class="text-base text-slate-900 dark:text-white bg-white dark:bg-slate-900">
+    <!-- Loader Start -->
+    <div id="preloader">
+        <div id="status">
+            <div class="spinner">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Loader End -->
+    <!-- Start Navbar -->
+    <nav id="topnav" class="defaultscroll is-sticky">
+        <div class="container relative">
+            <!-- Logo container-->
+            <!-- <a class="logo" href="index.html">
+                    <span class="inline-block dark:hidden">
+                        <img src="assets/images/logochef.png" class="l-dark" alt="">
+                        <img src="assets/images/logochef.png" class="l-light" alt="">
+                    </span>
+                    <img src="assets/images/logochef.png" class="hidden dark:inline-block" alt="">
+                </a> -->
+            <!-- End Logo container-->
+
+            <!-- Start Mobile Toggle -->
+            <div class="menu-extras">
+                <div class="menu-item">
+                    <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                        <div class="lines">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- End Mobile Toggle -->
+
+
+
+            <div id="navigation">
+                <!-- Navigation Menu-->
+                <ul class="navigation-menu nav-light justify-end">
+                    <li class="has-submenu parent-menu-item">
+                        <a href="javascript:void(0)">Home</a><span class="menu-arrow"></span>
+                    </li>
+
+                    <li><a href="#" class="sub-menu-item">Our Story</a></li>
+
+                    <li class="has-submenu parent-parent-menu-item"><a href="javascript:void(0)"> Gallery</a><span
+                            class="menu-arrow"></span>
+                    </li>
+                    <li><a href="#" class="sub-menu-item">Blog</a></li>
+                    <li><a href="#" class="sub-menu-item">Testimonials</a></li>
+                    <li><a href="#" class="sub-menu-item">Contact</a></li>
+                </ul><!--end navigation menu-->
+            </div><!--end navigation-->
+        </div><!--end container-->
+    </nav><!--end header-->
+    <!-- End Navbar -->
+
+    <section class="swiper-slider-hero relative block h-screen" id="home">
+        <div class="swiper-container absolute end-0 top-0 size-full">
+            <div class="swiper-wrapper">
+                <!-- Slide 1 -->
+                <div class="swiper-slide flex items-center overflow-hidden">
+                    <div class="slide-inner absolute end-0 top-0 size-full slide-bg-image flex items-center bg-center;"
+                        data-background="assets/images/bg/bg1.jpg"><!-- Banner Image-need to change -->
+                        <div class="absolute inset-0 bg-slate-900/60"></div>
+                        <div class="container relative">
+                            <div class="grid grid-cols-1">
+                                <h1
+                                    class="font-semibold lg:leading-normal leading-normal text-4xl lg:text-6xl text-white mb-5">
+                                    Ready-to-Eat.<br>Chef-Approved
+                                </h1>
+                                <p class="text-white/70 text-lg max-w-xl">
+                                    Delicious meals sealed with retort technology – fresh taste, long shelf life, zero
+                                    compromise.
+                                </p>
+                                <div class="mt-8">
+                                    <a href="#"
+                                        class="py-2 px-5 inline-block tracking-wide align-middle duration-500 text-base text-center text-primary hover:text-white bg-transparent hover:bg-primary border border-primary">
+                                        Explore Products
+                                    </a>
+                                </div>
+                            </div><!--end grid-->
+                        </div><!--end container-->
+                    </div><!-- end slide-inner -->
+                </div> <!-- end swiper-slide -->
+
+                <!-- Slide 2 -->
+                <div class="swiper-slide flex items-center overflow-hidden">
+                    <div class="slide-inner absolute end-0 top-0 size-full slide-bg-image flex items-center bg-center bg-no-repeat bg-cover"
+                        data-background="assets/images/bg.webp"><!-- Banner Image-need to change -->
+
+
+                        <div class="absolute inset-0 bg-slate-900/60"></div>
+                        <div class="container relative">
+                            <div class="grid grid-cols-1">
+                                <h1
+                                    class="font-semibold lg:leading-normal leading-normal text-4xl lg:text-6xl text-white mb-5">
+                                    Fresh Taste.<br>Long Shelf Life.
+                                </h1>
+                                <p class="text-white/70 text-lg max-w-xl">
+                                    Powered by advanced retort packaging, our meals stay safe, nutritious, and full of
+                                    flavor – no preservatives needed.
+                                </p>
+                                <div class="mt-8">
+                                    <a href="#"
+                                        class="py-2 px-5 inline-block tracking-wide align-middle duration-500 text-base text-center text-primary hover:text-white bg-transparent hover:bg-primary border border-primary">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div><!--end grid-->
+                        </div><!--end container-->
+                    </div><!-- end slide-inner -->
+                </div> <!-- end swiper-slide -->
+            </div>
+            <!-- end swiper-wrapper -->
+
+            <!-- swipper controls -->
+            <!-- <div class="swiper-pagination"></div> -->
+            <div
+                class="swiper-button-next bg-transparent !size-8 inline-flex items-center justify-center bg-none border border-solid border-white/50 text-white hover:bg-primary hover:border-primary rounded-full text-center">
+            </div>
+            <div
+                class="swiper-button-prev bg-transparent !size-8 inline-flex items-center justify-center bg-none border border-solid border-white/50 text-white hover:bg-primary hover:border-primary rounded-full text-center">
+            </div>
+        </div><!--end container-->
+    </section>
+
+    <!-- Hero End -->
+
+    <!-- Start -->
+    <section class="relative md:py-24 py-16">
+        <div class="container relative">
+            <div class="flex justify-center">
+                <div class="lg:w-1/2 md:w-2/3 w-full">
+                    <div class="text-center">
+                        <h4 class="text-3xl font-semibold">Revolutionize Your Kitchen with Ready-to-Eat Meals </h4>
+
+                        <p class="text-slate-400 mt-6">No cooking, no waiting. Just heat, eat, and enjoy delicious meals
+                            anytime, anywhere.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="flex justify-center mt-10">
+                <div class="lg:w-2/3 w-full">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="group relative">
+                            <img src="assets/images/chef/jpg/RoastedShrimp.jpg" alt="">
+                            <div class="absolute inset-0 bg-slate-950/50"></div>
+                            <div class="absolute inset-0 m-6 border border-white/30"></div>
+                            <div class="absolute bottom-12 start-0 end-0 text-center">
+                                <h5 class="text-white/80 group-hover:text-white duration-500 text-xl"> Seafood Specials
+                                </h5>
+                            </div>
+                        </div>
+
+                        <div class="group relative">
+                            <img src="assets/images/chef/jpg/ButterChickenSauce.jpg" alt="">
+                            <div class="absolute inset-0 bg-slate-950/50"></div>
+                            <div class="absolute inset-0 m-6 border border-white/30"></div>
+                            <div class="absolute bottom-12 start-0 end-0 text-center">
+                                <h5 class="text-white/80 group-hover:text-white duration-500 text-xl">Chicken Delights
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container relative md:mt-24 mt-16">
+            <div class="grid grid-cols-1 pb-8 text-center">
+                <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Why Choose Us </h3>
+
+                <p class="text-slate-400 max-w-xl mx-auto">Ready-to-eat meals designed to save your time, delight your
+                    taste buds, and keep you healthy.</p>
+            </div><!--end grid-->
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-6 gap-6">
+                <div class="md:px-6 duration-500 text-center">
+                    <div
+                        class="size-20 bg-primary/5 mx-auto text-primary text-3xl flex align-middle justify-center items-center shadow-xs dark:shadow-gray-800">
+                        <i class="mdi mdi-pizza"></i>
+                    </div>
+
+                    <div class="content mt-7">
+                        <a href="#" class="title h5 text-lg font-medium hover:text-primary">Save Time</a>
+                        <p class="text-slate-400 mt-3">No cooking required — your meals are ready in just minute</p>
+
+                        <div class="mt-5">
+                            <a href="#" class="hover:text-primary">Read More <i class="mdi mdi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:px-6 duration-500 text-center">
+                    <div
+                        class="size-20 bg-primary/5 mx-auto text-primary text-3xl flex align-middle justify-center items-center shadow-xs dark:shadow-gray-800">
+                        <i class="mdi mdi-silverware"></i>
+                    </div>
+
+                    <div class="content mt-7">
+                        <a href="#" class="title h5 text-lg font-medium hover:text-primary">Healthy Choices</a>
+                        <p class="text-slate-400 mt-3">Nutritious and balanced meals carefully crafted with care.
+                        </p>
+
+                        <div class="mt-5">
+                            <a href="#" class="hover:text-primary">Read More <i class="mdi mdi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="md:px-6 duration-500 text-center">
+                    <div
+                        class="size-20 bg-primary/5 mx-auto text-primary text-3xl flex align-middle justify-center items-center shadow-xs dark:shadow-gray-800">
+                        <i class="mdi mdi-moped-outline"></i>
+                    </div>
+
+                    <div class="content mt-7">
+                        <a href="#" class="title h5 text-lg font-medium hover:text-primary">Delicious Taste</a>
+                        <p class="text-slate-400 mt-3">Authentic flavors that bring comfort and joy to every bite.</p>
+
+                        <div class="mt-5">
+                            <a href="#" class="hover:text-primary">Read More <i class="mdi mdi-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section
+        class="relative pt-24 pb-40 bg-[url('../../assets/images/bg/pages.html')] bg-no-repeat bg-fixed bg-top bg-cover">
+        <div class="absolute inset-0 bg-slate-950/50"></div>
+        <div class="container">
+            <div class="flex justify-center relative mt-20">
+                <div class="relative lg:w-1/3 md:w-1/2 w-full">
+                    <div class="absolute -top-20 md:-start-24 -start-0">
+                        <i class="mdi mdi-format-quote-open text-9xl text-white opacity-50"></i>
+                    </div>
+
+                    <div class="absolute bottom-28 md:-end-24 -end-0">
+                        <i class="mdi mdi-format-quote-close text-9xl text-white opacity-50"></i>
+                    </div>
+
+                    <div class="tiny-single-item">
+                        <div class="tiny-slide">
+                            <div class="text-center">
+                                <p class="text-lg text-white/80 italic"> " The seafood specials are incredible! The
+                                    stuffed squid was fresh and delicious, just like restaurant quality but ready in
+                                    minutes " </p>
+
+                                <div class="text-center mt-5">
+                                    <ul class="text-xl font-medium text-primary-400 list-none mb-2">
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                    </ul>
+
+                                    <img src="assets/images/client/AI-Profile-Picture.jpg"
+                                        class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt="">
+                                    <h6 class="mt-2 font-medium text-white">Anita Rao</h6>
+                                    <span class="text-white/70 text-sm">Food Blogger</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tiny-slide">
+                            <div class="text-center">
+                                <p class="text-lg text-white/80 italic"> "I love the chicken delights. The butter
+                                    chicken tastes authentic, and it saves me so much cooking time during busy days "
+                                </p>
+
+                                <div class="text-center mt-5">
+                                    <ul class="text-xl font-medium text-primary-400 list-none mb-2">
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                    </ul>
+
+                                    <img src="assets/images/client/01.jpg"
+                                        class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt="">
+                                    <h6 class="mt-2 font-medium text-white">Rohan</h6>
+                                    <span class="text-white/70 text-sm">Fitness Coach</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tiny-slide">
+                            <div class="text-center">
+                                <p class="text-lg text-white/80 italic"> "Quick, tasty, and comforting! The bamboo rice
+                                    soup has become my favorite ready-to-eat meal. " </p>
+
+                                <div class="text-center mt-5">
+                                    <ul class="text-xl font-medium text-primary-400 list-none mb-2">
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                        <li class="inline"><i class="mdi mdi-star"></i></li>
+                                    </ul>
+
+                                    <img src="assets/images/client/women-AI-Profile-Picture.jpg"
+                                        class="size-14 rounded-full shadow-md dark:shadow-gray-700 mx-auto" alt="">
+                                    <h6 class="mt-2 font-medium text-white">Sophie Chen</h6>
+                                    <span class="text-white/70 text-sm"> Happy Customer</span>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div><!--end grid-->
+        </div>
+
+        <div class="absolute bottom-0 start-0 end-0 text-center px-3">
+            <h4 class="md:text-3xl text-2xl md:leading-normal leading-normal font-semibold text-white mb-6">Craft your
+                perfect combo – order today!</h4>
+        </div>
+    </section>
+
+
+    <section class="relative pt-6 md:pb-24 pb-16 bg-gray-50 dark:bg-slate-800">
+        <div class="container relative">
+            <div class="grid md:grid-cols-12">
+                <div class="lg:col-span-3 md:col-span-3 p-3">
+                    <div class="shadow-sm dark:shadow-gray-800 bg-white dark:bg-slate-900 p-4 sticky top-20">
+                        <div class="filters-group-wrap text-center">
+                            <div class="filters-group">
+                                <ul class="mb-0 list-none container-filter-border-bottom filter-options">
+                                    <li class="text-sm uppercase font-medium cursor-pointer relative border-b border-transparent text-slate-400 duration-500 active"
+                                        data-group="all">All</li>
+                                    <li class="text-sm uppercase font-medium mt-3 cursor-pointer relative border-b border-transparent text-slate-400 duration-500"
+                                        data-group="seafood">Seafood Specials 🦑🦐</li>
+                                    <li class="text-sm uppercase font-medium mt-3 cursor-pointer relative border-b border-transparent text-slate-400 duration-500"
+                                        data-group="chicken">Chicken Delights 🍗</li>
+                                    <li class="text-sm uppercase font-medium mt-3 cursor-pointer relative border-b border-transparent text-slate-400 duration-500"
+                                        data-group="rice">Rice & Grains 🍚</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-9 md:col-span-9">
+                    <div id="grid" class="md:flex flex-wrap">
+
+                        <!-- Chicken -->
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["chicken"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/butterchknsauce.jpg" alt="Butter Chicken Sauce">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Butter
+                                        Chicken Sauce</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["chicken"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/butter_chicken.jpg" alt="Butterchicken">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Butterchicken</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["chicken"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/CHICKEN MEAT BALL SOUP.png" alt="Chicken Meat Ball Soup">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Chicken Meat
+                                        Ball Soup</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["chicken"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/chknmeatballgravy.jpg" alt="Chicken Meat Ball">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Chicken Meat
+                                        Ball</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["chicken"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/chknricecake.jpg" alt="Chicken Rice Cake">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Chicken Rice
+                                        Cake</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["chicken"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/cknmeatballsoup.jpg" alt="Chicken Rice Cake">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Chicken Meat
+                                        Ball Soup</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Seafood -->
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["seafood"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/fishmeatball.jpg" alt="Fish Ball">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#" class="text-lg h5 block text-white hover:text-primary duration-500">Fish
+                                        Ball</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["seafood"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/roastedshrimp.jpg" alt="Fish Ball">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Roasted
+                                        Shrimp</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["seafood"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/roastedsquid.jpg" alt="Fish Ball">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Roasted
+                                        Squid</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["seafood"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/stuffedsquid.jpg" alt="Fish Ball">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Stuffed
+                                        Squid</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["seafood"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/roastedclams.jpg" alt="Roasted Clams">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Roasted
+                                        Clams</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Rice -->
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["rice"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/oatmeal.jpg" alt="Oatmeal Ball Soup">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Oatmeal Ball
+                                        Soup</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["rice"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/RICE CAKE.png" alt="Rice Cake">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#" class="text-lg h5 block text-white hover:text-primary duration-500">Rice
+                                        Cake</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["rice"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/ricesausage.jpg" alt="Rice Sausage">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#" class="text-lg h5 block text-white hover:text-primary duration-500">Rice
+                                        Sausage</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="group lg:w-1/4 md:w-1/3 picture-item p-3" data-groups='["rice"]'>
+                            <div class="group relative overflow-hidden shadow-sm dark:shadow-gray-800">
+                                <img src="assets/images/chef/jpg500/cartonbox.jpg" alt="Carton Box">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-t from-slate-950 to-transparent opacity-0 group-hover:opacity-100 duration-500">
+                                </div>
+                                <div
+                                    class="absolute -bottom-0 group-hover:bottom-6 start-6 end-6 text-center opacity-0 group-hover:opacity-100 duration-500">
+                                    <a href="#"
+                                        class="text-lg h5 block text-white hover:text-primary duration-500">Carton
+                                        Box</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container relative md:mt-24 mt-16">
+            <div class="grid grid-cols-1 pb-8 text-center">
+                <h3 class="mb-6 md:text-3xl text-2xl md:leading-normal leading-normal font-semibold">Food Blogs</h3>
+                <p class="text-slate-400 max-w-xl mx-auto">Explore our delicious recipes, cooking tips, and food stories
+                    that bring flavors to life.</p>
+            </div><!--end grid-->
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 mt-6 gap-6">
+
+                <!-- Blog 1 -->
+                <div
+                    class="group relative overflow-hidden rounded-md shadow-sm dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                    <div class="relative overflow-hidden">
+                        <img src="assets/images/chef/jpg500/stuffedsquid.jpg"
+                            class="group-hover:scale-110 group-hover:rotate-3 duration-500" alt="Stuffed Squid">
+
+                        <div class="absolute bottom-0 start-0 p-6">
+                            <a href="#"
+                                class="bg-primary text-white text-[12px] font-semibold px-2.5 py-0.5">Seafood</a>
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <a href="#" class="text-lg hover:text-primary h5">Delicious Stuffed Squid</a>
+                        <p class="text-slate-400 mt-2">Tender squid filled with herbs, spices, and a savory stuffing – a
+                            gourmet seafood delight.</p>
+
+                        <div
+                            class="mt-6 pt-6 flex justify-between items-center border-t border-gray-100 dark:border-gray-800">
+                            <span class="flex items-center">
+                                <img src="assets/images/client/1.jpg" class="size-7 rounded-full" alt="">
+                                <a href="#" class="ms-2 text-slate-400 hover:text-primary">Chef Marco</a>
+                            </span>
+                            <span class="flex items-center text-[14px]"><i data-feather="calendar" class="size-4"></i>
+                                <span class="ms-1 text-slate-400">Aug 25, 2025</span></span>
+                        </div>
+                    </div>
+                </div><!--end content-->
+                <!-- Blog 3 -->
+                <div
+                    class="group relative overflow-hidden rounded-md shadow-sm dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                    <div class="relative overflow-hidden">
+                        <img src="assets/images/chef/jpg500/ricecake.jpg"
+                            class="group-hover:scale-110 group-hover:rotate-3 duration-500" alt="Rice Cake">
+
+                        <div class="absolute bottom-0 start-0 p-6">
+                            <a href="#"
+                                class="bg-primary text-white text-[12px] font-semibold px-2.5 py-0.5">Dessert</a>
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <a href="#" class="text-lg hover:text-primary h5">Traditional Rice Cake</a>
+                        <p class="text-slate-400 mt-2">Soft, fluffy, and subtly sweet – this rice cake is a timeless
+                            comfort food.</p>
+
+                        <div
+                            class="mt-6 pt-6 flex justify-between items-center border-t border-gray-100 dark:border-gray-800">
+                            <span class="flex items-center">
+                                <img src="assets/images/client/3.jpg" class="size-7 rounded-full" alt="">
+                                <a href="#" class="ms-2 text-slate-400 hover:text-primary">Chef Rina</a>
+                            </span>
+                            <span class="flex items-center text-[14px]"><i data-feather="calendar" class="size-4"></i>
+                                <span class="ms-1 text-slate-400">Aug 27, 2025</span></span>
+                        </div>
+                    </div>
+                </div><!--end content-->
+                <!-- Blog 2 -->
+                <div
+                    class="group relative overflow-hidden rounded-md shadow-sm dark:shadow-gray-800 bg-white dark:bg-slate-900">
+                    <div class="relative overflow-hidden">
+                        <img src="assets/images/chef/jpg500/butter_chicken.jpg"
+                            class="group-hover:scale-110 group-hover:rotate-3 duration-500" alt="Butter Chicken">
+
+                        <div class="absolute bottom-0 start-0 p-6">
+                            <a href="#" class="bg-primary text-white text-[12px] font-semibold px-2.5 py-0.5">Indian
+                                Cuisine</a>
+                        </div>
+                    </div>
+
+                    <div class="p-6">
+                        <a href="#" class="text-lg hover:text-primary h5">Classic Butter Chicken</a>
+                        <p class="text-slate-400 mt-2">A creamy, flavorful curry made with tender chicken simmered in
+                            spiced tomato sauce.</p>
+
+                        <div
+                            class="mt-6 pt-6 flex justify-between items-center border-t border-gray-100 dark:border-gray-800">
+                            <span class="flex items-center">
+                                <img src="assets/images/client/2.jpg" class="size-7 rounded-full" alt="">
+                                <a href="#" class="ms-2 text-slate-400 hover:text-primary">Chef Ayesha</a>
+                            </span>
+                            <span class="flex items-center text-[14px]"><i data-feather="calendar" class="size-4"></i>
+                                <span class="ms-1 text-slate-400">Aug 26, 2025</span></span>
+                        </div>
+                    </div>
+                </div><!--end content-->
+
+
+
+            </div>
+        </div>
+
+    </section>
+    <div class="container-fluid relative">
+        <div class="grid grid-cols-1 relative">
+            <div class="tiny-twelve-item">
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/butter_chicken.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/butter_chicken.jpg" alt="Butter Chicken">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/butterchknsauce.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/butterchknsauce.jpg" alt="Butter Chicken Sauce">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/cartonbox.jpg" class="lightbox d-inline-block" title="">
+                                <img src="assets/images/chef/jpg500/cartonbox.jpg" alt="Carton Box">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/chknmeatballgravy.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/chknmeatballgravy.jpg" alt="Chicken Meatball Gravy">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/chknricecake.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/chknricecake.jpg" alt="Chicken Rice Cake">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/cknmeatballsoup.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/cknmeatballsoup.jpg" alt="Chicken Meatball Soup">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/fishmeatball.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/fishmeatball.jpg" alt="Fish Meatball">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/oatmeal.jpg" class="lightbox d-inline-block" title="">
+                                <img src="assets/images/chef/jpg500/oatmeal.jpg" alt="Oatmeal Soup">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/ricecake.jpg" class="lightbox d-inline-block" title="">
+                                <img src="assets/images/chef/jpg500/ricecake.jpg" alt="Rice Cake">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/ricesausage.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/ricesausage.jpg" alt="Rice Sausage">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/roastedclams.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/roastedclams.jpg" alt="Roasted Clams">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/roastedshrimp.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/roastedshrimp.jpg" alt="Roasted Shrimp">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/roastedsquid.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/roastedsquid.jpg" alt="Roasted Squid">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tiny-slide">
+                    <div class="card border-0 rounded-0">
+                        <div class="card-body p-0">
+                            <a href="assets/images/chef/jpg500/stuffedsquid.jpg" class="lightbox d-inline-block"
+                                title="">
+                                <img src="assets/images/chef/jpg500/stuffedsquid.jpg" alt="Stuffed Squid">
+                                <div class="overlay bg-dark"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div
+                class="absolute top-2/4 -translate-y-2/4 start-2/4 ltr:-translate-x-2/4 rtl:translate-x-2/4 text-center">
+                <a href="" target="_blank"
+                    class="size-9 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-base text-center rounded-md bg-primary border border-primary text-white"><i
+                        data-feather="instagram" class="size-4"></i></a>
+            </div>
+        </div><!--end grid-->
+    </div>
+
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="relative bg-slate-950 dark:bg-slate-950/20 text-gray-200">
+        <div class="container relative">
+            <div class="grid grid-cols-12">
+                <div class="col-span-12">
+                    <div class="py-[60px] px-0">
+                        <div class="grid lg:grid-cols-3 md:grid-cols-2 justify-center gap-6">
+                            <div class="text-center">
+                                <h5 class="tracking-[1px] text-gray-100 font-medium text-lg mb-4">Chef-Ready Promise
+                                </h5>
+                                <p class="mb-2 text-gray-200/80">Delicious meals crafted by expert chefs.</p>
+                                <p class="mb-0 text-gray-200/80">Ready in minutes — sealed fresh with care.</p>
+                            </div>
+
+
+                            <div class="text-center">
+                                <h5 class="tracking-[1px] text-gray-100 font-medium text-lg mb-4">Conatct</h5>
+                                <p class="mb-2"><a href="tel:+152534-468-854" class="text-gray-200/80">+91 89 43 35 55
+                                        77</a></p>
+                                <p class="mb-0"><a href="mailto:contact@example.com"
+                                        class="text-gray-200/80">contact@example.com</a></p>
+                            </div>
+
+                            <div class="text-center">
+                                <h5 class="tracking-[1px] text-gray-100 font-medium text-lg mb-4">Address</h5>
+                                <p class="mb-0 text-gray-200/80"> Mathodam, P O Kannadiparambu, <br> S Kannur, Kerala
+                                </p>
+                            </div>
+                        </div><!--end grid-->
+
+
+                        <div class="grid grid-cols-1 mt-12">
+                            <div class="text-center">
+                                <img src="assets/images/logochef.png" class="block mx-auto" alt="">
+                                <p class="max-w-xl mx-auto mt-6">
+                                    Freshly crafted ready-to-eat meals — nutritious, delicious, and sealed to keep the
+                                    taste alive.
+                                    Convenience without compromise, anytime you need it.
+                                </p>
+                            </div>
+
+                        </div><!--end grid-->
+                    </div>
+                </div>
+            </div><!--end grid-->
+        </div><!--end container-->
+
+        <div class="py-[30px] px-0 border-t border-slate-800">
+            <div class="container relative text-center">
+                <div class="grid md:grid-cols-1">
+
+                </div><!--end grid-->
+            </div><!--end container-->
+        </div>
+    </footer><!--end footer-->
+    <!-- Footer End -->
+    <!-- Back to top -->
+    <a href="#" onclick="topFunction()" id="back-to-top"
+        class="back-to-top fixed hidden text-lg rounded-full z-10 bottom-5 end-5 size-9 text-center bg-primary text-white justify-center items-center"><i
+            class="mdi mdi-arrow-up"></i></a>
+    <!-- Back to top -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="assets/libs/shufflejs/shuffle.min.js"></script>
+    <script src="assets/libs/tiny-slider/min/tiny-slider.js"></script>
+    <script src="assets/libs/tobii/js/tobii.min.js"></script>
+    <script src="assets/libs/feather-icons/feather.min.js"></script>
+    <script src="assets/libs/swiper/js/swiper.min.js"></script>
+    <script src="assets/js/plugins.init.js"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- JAVASCRIPTS -->
+</body>
+
+</html>
